@@ -1,11 +1,25 @@
-import React from 'react'
+import React from "react";
 
-function Footer() {
+export default function Footer() {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <footer className="footer bg-gray">
+      <div className="container">
+        <div className="grid grid-rows-4 grid-flow-col gap-4">
+          <div>
+            01 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+            delectus quis esse culpa in veritatis.
+          </div>
 
-export default Footer
+          <div>
+            09 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
+            sed nihil, vel velit et harum.
+          </div>
+          <div>
+            09 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
+            sed nihil, vel velit et harum.
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
