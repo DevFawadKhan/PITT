@@ -1,9 +1,10 @@
-import React from 'react'
-import Exclusive from '../components/Exclusive';
+// import Exclusive from '../components/Exclusive';
+import Whychoose from "../components/Whychoose";
 export default function Home() {
   return (
 <>
-<Exclusive></Exclusive>
+{/* <Exclusive></Exclusive> */}
+<Whychoose></Whychoose>
 </>
   );
 }
