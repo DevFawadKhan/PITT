@@ -1,10 +1,10 @@
-import React from 'react'
+// import React from 'react'
 import Choosecard from './Choosecard'
 function Whychoose() {
   return (
     <>
     <div className='container'>
-<div><h2 className='flex justify-center font-bold'>Why Choose Us?</h2></div>
+<div><h2 className='text-center py-5 text-4xl font-bold text-black leading-tight'>Why Choose Us?</h2></div>
    <div className='flex flex-wrap gap-3 justify-center'>
    <Choosecard></Choosecard>
    <Choosecard></Choosecard>

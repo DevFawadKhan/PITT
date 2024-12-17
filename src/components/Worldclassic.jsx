@@ -3,7 +3,7 @@ function Worldclassic() {
   return (
     <>
     <div className="container bg-gray-100">
-     <div className="text-center"><h1 className="font-bold text-xl">World Class Iconic Destinations</h1>
+     <div className="text-center py-4 px-5"><h1 className="text-4xl font-bold text-black leading-tight">World Class Iconic Destinations</h1>
      <div className="flex justify-center py-3"><p className="w-fit max-w-[500px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, debitis iste. Obcaecati provident quo consequatur tempora illum quidem molestiae autem!</p></div>
      {/* image card */}
      <div className="flex justify-center gap-4 mx-auto w-full my-3">
@@ -35,7 +35,7 @@ function Worldclassic() {
        </div>
      </div>
      {/* explore more */}
-     <button className="bg-red-600 text-white font-bold rounded-lg p-2">Explore more</button>
+     <button className="bg-red-600 text-white font-bold rounded-lg p-2 my-3 mb-5">Explore more</button>
      </div>
     </div>
     </>
