@@ -4,8 +4,8 @@ export default function Footer() {
   return (
     <footer className="footer bg-[#383838]">
       <div className="container">
-        <div className="flex flex-row flex-wrap  gap-5 py-10">
-          <div className="flex-1 basis-0 text-white px-8">
+        <div className="flex flex-row flex-wrap  gap-8 py-10">
+          <div className="flex-1 basis-0 text-white">
             <h2 className="text-3xl font-bold pb-5">About PITT</h2>
             <p>
               We offers personalized travel solutions designed to make every
@@ -23,7 +23,7 @@ export default function Footer() {
               </p>
             </div>
           </div>
-          <div className="flex-1 basis-0 text-white px-8">
+          <div className="flex-1 basis-0 text-white ">
             <h2 className="text-3xl font-bold pb-5">Global Award Winner</h2>
             <div className="flex flex-col gap-5 px-5">
               <div className="flex flex-row gap-3">
@@ -62,7 +62,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="flex-1 basis-0 text-white">
+          <div className="flex-1 basis-0 text-white ">
             <h2 className="text-3xl font-bold pb-5">Follow Us</h2>
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-3">
@@ -95,7 +95,7 @@ export default function Footer() {
                 </span>
                 <p className="text-sm">Linkedin</p>
               </div>
-              <div className="flex flex-row gap-3">
+              <div className="flex flex-row gap-3 ">
                 <span className="w-[32px] h-[31px] bg-[#F90B0B]  rounded-full flex justify-center items-center">
                   <img
                     src="/icons/instagram.png"
@@ -107,6 +107,17 @@ export default function Footer() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <span className="flex w-100 h-[1px] bg-white "></span>
+      <div className="container">
+        <div className="flex justify-between py-5 text-white text-sm flex-wrap gap-4">
+          <span className="text-sm">
+            Privacy Policy | Terms & Conditions | FAQ
+          </span>
+          <span className="text-sm">
+            Copyright &copy; 2024. All rights reserved{" "}
+          </span>
         </div>
       </div>
     </footer>
