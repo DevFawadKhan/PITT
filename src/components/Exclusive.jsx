@@ -5,8 +5,8 @@ function Exclusive() {
   
   return (
     <>
-    <div className='container'>
-<div className='heading'><h5 className='text-center font-bold'>Our Exclusive Offers</h5></div>
+    <div className='container '>
+<div className='heading py-4'><h5 className='text-center  text-4xl font-bold text-black leading-tight'>Our Exclusive Offers</h5></div>
  <div className='flex flex-wrap justify-center gap-3'>
  <Card/>
  <Card/>

@@ -1,4 +1,4 @@
-// import Exclusive from '../components/Exclusive';
+import Exclusive from '../components/Exclusive';
 import Getintouch from "../components/Getintouch";
 import Hero from "../components/Hero";
 import NewsLetter from "../components/NewsLetter";
@@ -10,13 +10,14 @@ export default function Home() {
   return (
 <>
 <Hero/>
-{/* <Exclusive></Exclusive> */}
+<Worldclassic/>
+<Exclusive/>
 <Whychoose></Whychoose>
 <WhatOurClient/>
 <NewsLetter/>
 <Getintouch/>
 {/* <Whychoose></Whychoose> */}
-<Worldclassic></Worldclassic>
+
 </>
   );
 }
