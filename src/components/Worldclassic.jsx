@@ -56,20 +56,6 @@ function Worldclassic() {
                 </h2>
               </div>
             ))}
-            {/* pic2 */}
-            {/* <div className="relative w-[350px]">
-              <img src="assets/pic3.png" alt="CANADA" />
-              <h2 className="absolute bottom-2 left-2  font-bold text-white  text-xl">
-                CANADA
-              </h2>
-            </div> */}
-            {/* pic3 */}
-            {/* <div className="relative w-[350px]">
-              <img src="assets/pic2.png" alt="" />
-              <h2 className="absolute bottom-2 left-2  font-bold text-white text-xl">
-                AUSTRALIA
-              </h2>
-            </div> */}
           </div>
           {/* explore more */}
           <button className="bg-red-600 text-white font-bold rounded-lg p-2 my-3 mb-5">
