@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "host": "vite --host"
+    "host": "vite --host"
   },
   "dependencies": {
     "react": "^18.3.1",
