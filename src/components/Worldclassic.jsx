@@ -1,20 +1,21 @@
-
+import {useNavigate} from 'react-router-dom'
 function Worldclassic() {
+  const Navigate=useNavigate()
   const data = [
     {
       id: 1,
-      name: "LONDON",
-      img: "pic1.png",
+      name: "KAGHAN",
+      img: "DSC01606.JPG",
     },
     {
       id: 2,
-      name: "CANADA",
-      img: "pic2.png",
+      name: "SAWAT",
+      img: "FB_IMG_1722304392713.jpg",
     },
     {
       id: 3,
-      name: "AUSTRALIA",
-      img: "pic3.png",
+      name: "NARAN",
+      img: "DSC01610.JPG",
     },
   ];
   return (
@@ -36,11 +37,11 @@ function Worldclassic() {
             <div className="relative w-full max-w-[1000px]">
               <img
                 className="p-5 w-full h-auto mx-auto"
-                src="/assets/Rectangle.png"
+                src="public\assets\FB_IMG_1722304268696.jpg"
                 alt="FRANCE"
               />
               <h2 className="absolute bottom-6 left-8 text-white font-bold text-xl md:text-2xl sm:text-lg">
-                FRANCE
+                KUMRAT
               </h2>
             </div>
           </div>
@@ -50,7 +51,7 @@ function Worldclassic() {
             {/* pic1 */}
             {data.map((item, index) => (
               <div key={index} className="relative w-[350px]">
-                <img src={`assets/${item.img}`} alt={item.name} />
+                <img src={`assets/${item.img}`}/>
                 <h2 className="absolute bottom-2 left-2  font-bold text-white  text-xl">
                   {item.name}
                 </h2>
@@ -58,7 +59,7 @@ function Worldclassic() {
             ))}
           </div>
           {/* explore more */}
-          <button className="bg-red-600 text-white font-bold rounded-lg p-2 my-3 mb-5">
+          <button  onClick={()=>Navigate('/details')} className="bg-red-600 text-white font-bold rounded-lg p-2 my-3 mb-5">
             Explore more
           </button>
         </div>
