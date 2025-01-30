@@ -1,4 +1,5 @@
 // import React from 'react'
+import {useNavigate}  from 'react-router-dom'
 function Detail() {
   const data = [
     {
@@ -59,11 +60,12 @@ function Detail() {
       img: "IMG-20240802-WA0111.jpg",
     },
   ];
+    const navigate=useNavigate();
   return (
     <>
     {/* main image */}
     <div className="container min-height-">
-<div ><button className="bg-red-600 text-white border rounded-md p-2 hover:bg-red-500 my-5 font-semibold font-serif">Back to home</button></div>
+<div ><button onClick={()=>navigate('/')} className="bg-red-600 text-white border rounded-md p-2 hover:bg-red-500 my-5 font-semibold font-serif">Back to home</button></div>
 {/* image */}
     <div className="image">
      <h2 className="text-center my-5 font-bold text-2xl">Enjoyment with friends at Dessert </h2>
